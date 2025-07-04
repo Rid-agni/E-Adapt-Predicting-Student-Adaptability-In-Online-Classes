@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adaptivity Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .result {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007BFF;
+        }
+        a {
+            display: block;
+            margin-top: 30px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Your Predicted Adaptivity Level</h2>
+        <p class="result">{{ prediction }}</p>
+        <a href="/">Try another prediction</a>
+    </div>
+</body>
+</html>
